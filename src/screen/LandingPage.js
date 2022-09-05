@@ -42,7 +42,8 @@ const LandingPage = () => {
                 </Text>
                 <View className="flex-1 h-1 ml-5 mr-8" style={{backgroundColor:'#FFF'}} />
               </View>
-              <TouchableOpacity className=" flex-row bg-white items-center justify-center mx-10 py-3 rounded-3xl mt-5 mb-10">
+              <TouchableOpacity className=" flex-row bg-white items-center justify-center mx-10 py-3 rounded-3xl mt-5 mb-10"
+              onPress={() => navigation.navigate('Login')}>
                 <Text className="font-bold">masuk</Text>
               </TouchableOpacity>
             </LinearGradient>

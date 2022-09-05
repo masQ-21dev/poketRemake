@@ -3,10 +3,14 @@ import {View, Text, TextInput, ImageBackground, TouchableOpacity, ScrollView} fr
 import {TailwindProvider} from 'tailwindcss-react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
+import NotiveBar from '../component/NotivBar';
+
 const Login = () => {
     return (
     <TailwindProvider>
         <ImageBackground source={require("../assets/img/background.png")} className="flex-1 items-center justify-center">
+
+        <NotiveBar/>
         <View className="flex flex-col w-4/5 px-8 pt-9 pb-5 justify-center items-start bg-white rounded-3xl" style={{shadowOffset:{width:10,height:10},shadowColor:"#000", shadowOpacity:1, shadowRadius:20, elevation:15,}}>
         <View className="w-full p-2">
             <Text className="font-bold font-sans text-lg pb-2">E-mail SSO ITERA</Text>

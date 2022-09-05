@@ -6,7 +6,7 @@ function NotiveBar(props) {
         <StatusBar
             translucent
             backgroundColor={'transparent'}
-            barStyle='light-content'/>
+            barStyle='dark-content'/>
 
     );
 }
