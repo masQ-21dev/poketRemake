@@ -6693,7 +6693,7 @@ table@^6.0.9:
 
 tailwindcss-react-native@^1.7.10:
   version "1.7.10"
-  resolved "https://registry.npmjs.org/tailwindcss-react-native/-/tailwindcss-react-native-1.7.10.tgz"
+  resolved "https://registry.yarnpkg.com/tailwindcss-react-native/-/tailwindcss-react-native-1.7.10.tgz#a9d2130fd429d05ba85cd63148a3801116a938b2"
   integrity sha512-Vw1MsIQ6owW5k5sOtNscEOuRjbKds7mkD6Wi2B92hq8JmcphG+ke8xsViP2PpMKDQ2tXP8SBunax2pmC7yx5lQ==
   dependencies:
     "@babel/types" "7.18.2"
@@ -6709,7 +6709,7 @@ tailwindcss-react-native@^1.7.10:
 
 tailwindcss@^3.1.8:
   version "3.1.8"
-  resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.1.8.tgz"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.1.8.tgz#4f8520550d67a835d32f2f4021580f9fddb7b741"
   integrity sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==
   dependencies:
     arg "^5.0.2"
