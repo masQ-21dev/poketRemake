@@ -9,7 +9,7 @@ const LandingPage = () => {
             <View className="flex-1">
         <ImageBackground
           className="flex-1"
-          source={require('../asset/img/ViewBg.jpg')}>
+          source={require('../assets/img/ViewBg.jpg')}>
           <StatusBar
             translucent
             backgroundColor={'transparent'}
@@ -37,19 +37,19 @@ const LandingPage = () => {
             </View>
             
             <TouchableOpacity className=" flex-row bg-white items-center justify-center mx-10 py-2 rounded-3xl mt-5">
-              <Image source={require('../asset/img/google.png')}
+              <Image source={require('../assets/img/google.png')}
                 className="h-6 w-6 mr-2" />
               <Text className="font-bold">Login dengan google</Text>
             </TouchableOpacity>
             <TouchableOpacity className=" flex-row items-center justify-center mx-10 py-2 rounded-3xl mt-2"
               style={{backgroundColor:'#4267B2'}}>
-              <Image source={require('../asset/img/facebook.png')}
+              <Image source={require('../assets/img/facebook.png')}
                 className="h-6 w-6 mr-2" />
               <Text className="text-white font-bold">Login dengan facebook</Text>
             </TouchableOpacity>
             <TouchableOpacity className=" flex-row items-center justify-center mx-10 py-2 rounded-3xl mt-2"
               style={{backgroundColor:'#0077b5'}}>
-              <Image source={require('../asset/img/linkedin.png')}
+              <Image source={require('../assets/img/linkedin.png')}
                 className="h-6 w-6 mr-2" />
               <Text className="text-white font-bold">Login dengan linkedin</Text>
             </TouchableOpacity>
