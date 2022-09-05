@@ -1,14 +1,21 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
-import {View, Text} from 'react-native';
-import {TailwindProvider} from 'tailwindcss-react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+import LandingPage from './src/screen/LandingPage';
+
 
 const App = () => {
+
+  const Stack = createNativeStackNavigator();
+
   return (
-    <TailwindProvider>
-      <View className="flex-1 items-center justify-center bg-white">
-        <Text className="text-blue-900 font-bold text-center">Open up App.js to start working on your app!</Text>
-      </View>
-    </TailwindProvider>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="LandingPage" screenOptions={{headerShown:false}}>
+        <Stack.Screen name="LandingPage" component={LandingPage} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
