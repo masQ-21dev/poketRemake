@@ -5,7 +5,7 @@ import {TailwindProvider} from 'tailwindcss-react-native';
 const Login = () => {
     return (
     <TailwindProvider>
-        <ImageBackground source={require("../asset/img/background.png")} className="flex-1">
+        <ImageBackground source={require("../assets/img/background.png")} className="flex-1">
         <Text>adi </Text>
         </ImageBackground>
     </TailwindProvider>
