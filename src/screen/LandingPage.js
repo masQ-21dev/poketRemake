@@ -1,12 +1,15 @@
 import React from 'react';
-import { View, Text, StatusBar, ImageBackground, TouchableOpacity, Image} from 'react-native';
+import { View, Text, ImageBackground, TouchableOpacity, Image} from 'react-native';
 import { TailwindProvider } from 'tailwindcss-react-native';
 import LinearGradient from 'react-native-linear-gradient';
+
+import { useNavigation } from '@react-navigation/native';
 
 import NotiveBar from '../component/NotivBar';
 
 
 const LandingPage = () => {
+  const navigation = useNavigation();
     return (
         <TailwindProvider>
         <View className="flex-1">
@@ -40,8 +43,6 @@ const LandingPage = () => {
               <TouchableOpacity className=" flex-row bg-white items-center justify-center mx-10 py-3 rounded-3xl mt-5 mb-10">
                 <Text className="font-bold">masuk</Text>
               </TouchableOpacity>
-
-
             </LinearGradient>
           </View>
         </ImageBackground>
