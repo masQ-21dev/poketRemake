@@ -15,8 +15,10 @@ const LandingPage = () => {
         <View className="flex-1">
         <ImageBackground
           className="flex-1"
+
           source={require('../assets/img/ViewBg.png')}>
           <NotiveBar/>
+
 
           <View className="flex-1"
             style={{backgroundColor:'rgba(0,0,0,0.3)'}}>
